@@ -6,6 +6,7 @@ use App\Models\Visitor;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -34,7 +35,18 @@ class HomeController extends Controller
                            ->whereYear('updated_at', $currentYear)
                            ->get();
 
-        $visitors = Visitor::groupBy('ip_address')->get();
+        $visitors = DB::table('visitors')
+        ->select('id', 'ip_address', 'location', 'month')
+        ->whereIn('id', function($query) {
+            $query->selectRaw('MAX(id)')
+                    ->from('visitors')
+                    ->groupBy('ip_address');
+        })
+        ->orderBy('updated_at', 'desc')
+        ->get();
+                       
+                       
+
         
         
         return view('pages.dashboard.dashboard',[
