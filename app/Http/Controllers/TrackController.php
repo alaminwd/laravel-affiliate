@@ -29,7 +29,7 @@ class TrackController extends Controller
     // }
 
     public function view_visitor(){
-        $visitor =  Visitor::all();
+        $visitor = Visitor::groupBy('ip_address')->get();
 
         return view('pages.dashboard.track_visitor');
         
