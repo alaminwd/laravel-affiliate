@@ -92,7 +92,7 @@
     <div class="col-lg-6">
         <div class="card">
             <div class="card-body">
-                <h6 class="card-title">Total Visitor</h6>
+                <h6 class="card-title">Total Visitor  ({{ number_format($visitors->count()) }})</h6>
                 {{-- <p class="card-description"> Current Date <a href="#" target="_blank">
                         {{ Carbon\Carbon::parse($visitors->first()->updated_at)->format('d F Y') }}
                     </a></p> --}}
