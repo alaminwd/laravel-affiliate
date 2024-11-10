@@ -30,11 +30,11 @@ class HomeController extends Controller
         $currentMonth = Carbon::now()->month;
         $currentYear = Carbon::now()->year;
 
-        $monthVisitor = Visitor::whereMonth('created_at', $currentMonth)
-                           ->whereYear('created_at', $currentYear)
+        $monthVisitor = Visitor::whereMonth('updated_at', $currentMonth)
+                           ->whereYear('updated_at', $currentYear)
                            ->get();
 
-        $visitors = Visitor::whereYear('created_at', $currentYear)->get();
+        $visitors = Visitor::groupBy('ip_address')->get();
         
         
         return view('pages.dashboard.dashboard',[
