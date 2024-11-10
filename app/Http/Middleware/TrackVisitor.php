@@ -31,8 +31,8 @@ class TrackVisitor
 
         // Check if the visitor has already visited this month
         $visitor = Visitor::where('ip_address', $ipAddress)
-                          ->whereYear('created_at', $currentYear)
-                          ->whereMonth('created_at', Carbon::now()->month)
+                          ->whereYear('updated_at', $currentYear)
+                          ->whereMonth('updated_at', Carbon::now()->month)
                           ->first();
 
         if ($visitor) {
