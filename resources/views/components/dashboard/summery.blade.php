@@ -15,7 +15,7 @@
             <div class="card">
                 <div class="card-body bg-primary">
                   <div class="d-flex justify-content-between align-items-baseline">
-                    <h6 class="card-title mb-0 text-white">Monthly Visitor <span style="margin-left: 30px">{{ Carbon\Carbon::parse($monthVisitor->first()->created_at)->format('d F Y') }}</span></h6>
+                    <h6 class="card-title mb-0 text-white">Monthly Visitor <span style="margin-left: 30px">{{ Carbon\Carbon::parse($monthVisitor->first()->updated_at)->format('d F Y') }}</span></h6>
                     
                   </div>
                   <div class="row">
@@ -38,7 +38,7 @@
             <div class="card">
                 <div class="card-body bg-primary">
                   <div class="d-flex justify-content-between align-items-baseline">
-                    <h6 class="card-title mb-0 text-white">Total Visitor <span style="margin-left: 30px">{{ Carbon\Carbon::parse($monthVisitor->first()->created_at)->format('d F Y') }}</span></h6>
+                    <h6 class="card-title mb-0 text-white">Total Visitor <span style="margin-left: 30px">{{ Carbon\Carbon::parse($monthVisitor->first()->updated_at)->format('d F Y') }}</span></h6>
                     
                   </div>
                   <div class="row">
@@ -58,7 +58,7 @@
             <div class="card-body">
                 <h6 class="card-title">Monthly Visitor</h6>
                 <p class="card-description">Current Date <a href="#" target="_blank">
-                        {{ Carbon\Carbon::parse($monthVisitor->first()->created_at)->format('d F Y') }}
+                        {{ Carbon\Carbon::parse($monthVisitor->first()->updated_at)->format('d F Y') }}
                     </a></p>
                 <div class="table-responsive">
                     <table id="dataTableExample" class="table">
@@ -94,7 +94,7 @@
             <div class="card-body">
                 <h6 class="card-title">Total Visitor</h6>
                 <p class="card-description"> Current Date <a href="#" target="_blank">
-                        {{ Carbon\Carbon::parse($visitors->first()->created_at)->format('d F Y') }}
+                        {{ Carbon\Carbon::parse($visitors->first()->updated_at)->format('d F Y') }}
                     </a></p>
                 <div class="table-responsive">
                     <table id="dataTableExample" class="table">
