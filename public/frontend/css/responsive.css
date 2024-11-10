@@ -1,0 +1,788 @@
+@media(min-width:1200px) and (max-width:1400px) {
+    .pro_col {
+        height: 260px;
+        margin-bottom: 25px;
+    }
+
+    .pro_col .pro_img_1 {
+        height: 215px;
+        overflow: hidden;
+    }
+
+    #allimg .samiller_item .product_img {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    #allimg .samiller_item p {
+        margin: 5px 0;
+    }
+
+    #allimg .img_l_top1 .swiper .swiper-slide img {
+        width: 90%;
+        height: 100%;
+    }
+
+    #allimg .img_l_top1 .mySwiper .swiper-slide {
+        width: 70.5px !important;
+        height: 80px;
+        overflow: hidden;
+    }
+
+    #allimg .samiller_item .product_img {
+        height: 100px;
+        overflow: hidden;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199.99px) {
+    .pro_col {
+        height: 220px;
+        margin-bottom: 25px;
+    }
+
+    .pro_col .pro_img_1 {
+        height: 180px;
+        overflow: hidden;
+    }
+
+    #contact-part .right .icon ul li {
+        padding-left: 10px;
+        padding-bottom: 33px;
+    }
+
+    #contact-part .right .address p {
+        line-height: 20px;
+    }
+
+    #allimg .img_l_top1 .swiper .swiper-slide img {
+        width: 90%;
+        height: 100%;
+    }
+
+    #allimg .img_l_top1 .mySwiper .swiper-slide {
+        width: 62.5px !important;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    #allimg .samiller_item .product_img {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    #allimg .samiller_item p {
+        margin: 5px 0;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.99px) {
+    .title {
+        margin-bottom: 30px;
+    }
+
+    .navbar-nav {
+        margin-top: 30px !important;
+        margin-left: 20px !important;
+    }
+
+    .navbar-collapse {
+
+        padding-bottom: 15px;
+    }
+
+    .title h2 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    #products {
+        padding: 50px 0px;
+    }
+
+    .pro_col {
+        height: 250px;
+        margin-bottom: 25px;
+    }
+
+    .pro_col .pro_img_1 {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    #contact-part .right .address p {
+
+        line-height: 20px;
+    }
+
+    #contact-part .right .icon ul li {
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    #contact-part .center ul li {
+        display: inline;
+    }
+
+    .abt-ti {
+        height: 100px;
+    }
+
+    #about_page .desp {
+        text-align: center;
+    }
+
+    #about_page .desp p {
+        margin-right: 0px;
+    }
+
+    #about_page {
+        padding-bottom: 30px;
+    }
+
+    #about_page .details {
+        text-align: center;
+    }
+
+    #about_page .details p {
+        text-align: center;
+    }
+
+    #about_page {
+        padding-bottom: 30px;
+    }
+
+    #about_page .about-desp {
+        margin-bottom: 25px;
+    }
+
+    #about_page .details {
+        margin-bottom: 0px;
+    }
+
+    #contact-section .contact-content {
+        text-align: center;
+    }
+
+    .contact-title span {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .contact-title h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .contact-content p {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    #contact-section form {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #contact-section form button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    #allimg {
+        padding-top: 15px;
+    }
+
+    #allimg .img_l_top1 .mySwiper2 {
+        height: 300px;
+        width: 90%;
+    }
+
+    #allimg .img_l_top1 .swiper .swiper-slide img {
+        width: 90%;
+        height: 100%;
+    }
+
+    #allimg .img_l_top1 .mySwiper .swiper-slide {
+        width: 62.5px !important;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    #allimg .img_top_left {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #allimg .img_top_left .goods-desp p {
+        text-align: center;
+    }
+
+    #allimg .img_l_top1 .mySwiper2 .swiper-slide {
+        height: 300px;
+    }
+
+    #allimg .right_content {
+        margin-top: 150px;
+    }
+
+    #allimg .right_content .recomm {
+        margin-bottom: 20px;
+    }
+
+    #allimg .samiller_item {
+        margin: 30px 20px;
+        display: inline;
+    }
+
+    #allimg .samiller_item .product_img {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    #allimg .samiller_item p {
+        margin: 5px 0;
+    }
+}
+
+@media(min-width:576px) and (max-width:767.99px) {
+    .title {
+        margin-bottom: 30px;
+    }
+
+    .navbar-nav {
+        margin-top: 30px !important;
+        margin-left: 20px !important;
+    }
+
+    .navbar-collapse {
+
+        padding-bottom: 15px;
+    }
+
+    .title h2 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    #products {
+        padding: 30px 0px;
+    }
+
+    .pro_col {
+        height: 245px;
+        margin-bottom: 25px;
+    }
+
+    .pro_col .pro_img_1 {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    #contact-part .center ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    #contact-part .center ul li {
+        font-size: 14px;
+        display: inline;
+    }
+
+    #contact-part .center h2 {
+        text-align: center;
+    }
+
+    #contact-part .right h2 {
+        text-align: center;
+    }
+
+    #contact-part .right .icon ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contact-part .right .address {
+        text-align: center;
+    }
+
+    .abt-ti {
+        height: 100px;
+    }
+
+    #about_page .desp {
+        text-align: center;
+    }
+
+    #about_page .desp p {
+        margin-right: 0px;
+    }
+
+    #about_page {
+        padding-bottom: 30px;
+    }
+
+    #about_page .details {
+        text-align: center;
+    }
+
+    #about_page .details p {
+        text-align: center;
+    }
+
+    #about_page {
+        padding-bottom: 30px;
+    }
+
+    #about_page .about-desp {
+        margin-bottom: 25px;
+    }
+
+    .about_img {
+        margin-top: 20px;
+    }
+
+    #contact-section .contact-content {
+        text-align: center;
+    }
+
+    .contact-title span {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .contact-title h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .contact-content p {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    #contact-section form {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #contact-section form button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    #allimg {
+        padding-top: 15px;
+    }
+
+    #allimg .img_l_top1 .mySwiper2 {
+        height: 300px;
+        width: 90%;
+    }
+
+    #allimg .img_l_top1 .swiper .swiper-slide img {
+        width: 90%;
+        height: 100%;
+    }
+
+    #allimg .img_l_top1 .mySwiper .swiper-slide {
+        width: 62.5px !important;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    #allimg .img_top_left {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #allimg .img_top_left .goods-desp p {
+        text-align: center;
+    }
+
+    #allimg .img_l_top1 .mySwiper2 .swiper-slide {
+        height: 300px;
+    }
+
+    #post1 .post_wrap .p_post .p_main_left .p_left2 h2 {
+        font-size: 24px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    #post1 {
+        padding: 20px 0px;
+    }
+
+    #post1 .post_wrap .p_post .p_main_left .p_left1 h4 {
+        margin-top: 0px;
+    }
+
+    #post1 .post_wrap .p_post .p_main_left .p_left1 h4 a {
+        margin-left: 5px;
+    }
+
+    #allimg .pro_btn {
+        width: 100%;
+    }
+}
+
+@media (min-width:471px) and (max-width:575.99px) {
+    #allimg .pro_btn {
+        width: 100%;
+    }
+
+    .title {
+        margin-bottom: 30px;
+    }
+
+    .navbar-nav {
+        margin-top: 30px !important;
+        margin-left: 20px !important;
+    }
+
+    .navbar-collapse {
+
+        padding-bottom: 15px;
+    }
+
+    .title h2 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    #products {
+        padding: 30px 0px;
+    }
+
+    .pro_col {
+        height: 225px;
+        margin-bottom: 10px;
+    }
+
+    .pro_col .pro_img_1 {
+        height: 180px;
+        overflow: hidden;
+    }
+
+    .pro_col .pro_text h3 a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #contact-part .center ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    #contact-part .center ul li {
+        font-size: 14px;
+        display: inline;
+    }
+
+    #contact-part .center h2 {
+        text-align: center;
+    }
+
+    #contact-part .right h2 {
+        text-align: center;
+    }
+
+    #contact-part .right .icon ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .abt-ti {
+        height: 100px;
+    }
+
+    #about_page .desp {
+        text-align: center;
+    }
+
+    #about_page .desp p {
+        margin-right: 0px;
+    }
+
+    #about_page {
+        padding-bottom: 30px;
+    }
+
+    #about_page .details {
+        text-align: center;
+    }
+
+    #about_page .details p {
+        text-align: center;
+    }
+
+    #about_page {
+        padding-bottom: 30px;
+    }
+
+    #about_page .about-desp {
+        margin-bottom: 25px;
+    }
+
+    #post .p_l_text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #contact-section .contact-content {
+        text-align: center;
+    }
+
+    .contact-title span {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .contact-title h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .contact-content p {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    #contact-section form {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #contact-section form button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    #allimg {
+        padding-top: 15px;
+    }
+
+    #allimg .img_l_top1 .mySwiper2 {
+        height: 300px;
+        width: 90%;
+    }
+
+    #allimg .img_l_top1 .swiper .swiper-slide img {
+        width: 90%;
+        height: 100%;
+    }
+
+    #allimg .img_l_top1 .mySwiper .swiper-slide {
+        width: 62.5px !important;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    #allimg .img_top_left {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #allimg .img_top_left .goods-desp p {
+        text-align: center;
+    }
+
+    #allimg .img_l_top1 .mySwiper2 .swiper-slide {
+        height: 300px;
+    }
+
+    #post1 .post_wrap .p_post .p_main_left .p_left2 h2 {
+        font-size: 24px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    #post1 {
+        padding: 20px 0px;
+    }
+
+    #post1 .post_wrap .p_post .p_main_left .p_left1 h4 {
+        margin-top: 0px;
+    }
+
+    #post1 .post_wrap .p_post .p_main_left .p_left1 h4 a {
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:470.99px) {
+    #allimg .pro_btn {
+        width: 100%;
+    }
+
+    .title {
+        margin-bottom: 30px;
+    }
+
+    .navbar-nav {
+        margin-top: 30px !important;
+        margin-left: 20px !important;
+    }
+
+    .navbar-collapse {
+
+        padding-bottom: 15px;
+    }
+
+    .title h2 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    #products {
+        padding: 30px 0px;
+    }
+
+    .pro_col {
+        height: 210px;
+        margin-bottom: 25px;
+    }
+
+    .pro_col .pro_img_1 {
+        height: 170px;
+        overflow: hidden;
+    }
+
+    .pro_col .pro_text h3 a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #contact-part .center ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    #contact-part .center ul li {
+        font-size: 14px;
+        display: inline;
+    }
+
+    #contact-part .center h2 {
+        text-align: center;
+    }
+
+    #contact-part .right h2 {
+        text-align: center;
+    }
+
+    #contact-part .right .icon ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .abt-ti {
+        height: 100px;
+    }
+
+    #about_page .desp {
+        text-align: center;
+    }
+
+    #about_page .desp p {
+        margin-right: 0px;
+    }
+
+    #about_page {
+        padding-bottom: 30px;
+    }
+
+    #about_page .about-desp {
+        margin-bottom: 25px;
+    }
+
+    #post .p_l_text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #contact-section .contact-content {
+        text-align: center;
+    }
+
+    .contact-title span {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .contact-title h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .contact-content p {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    #contact-section form {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #contact-section form button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    #allimg {
+        padding-top: 15px;
+    }
+
+    #allimg .img_l_top1 .mySwiper2 {
+        height: 300px;
+        width: 90%;
+    }
+
+    #allimg .img_l_top1 .swiper .swiper-slide img {
+        width: 90%;
+        height: 100%;
+    }
+
+    #allimg .img_l_top1 .mySwiper .swiper-slide {
+        width: 62.5px !important;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    #allimg .img_top_left {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #allimg .img_top_left .goods-desp p {
+        text-align: center;
+    }
+
+    #allimg .img_l_top1 .mySwiper2 .swiper-slide {
+        height: 300px;
+    }
+
+    #post1 .post_wrap .p_post .p_main_left .p_left2 h2 {
+        font-size: 24px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    #post1 {
+        padding: 20px 0px;
+    }
+
+    #post1 .post_wrap .p_post .p_main_left .p_left1 h4 {
+        margin-top: 0px;
+    }
+
+    #post1 .post_wrap .p_post .p_main_left .p_left1 h4 a {
+        margin-left: 5px;
+    }
+}
