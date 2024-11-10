@@ -5,6 +5,10 @@
     </ol>
     <div class="row">
         <div class="col-xl-4 col-md-4">
+            @php
+                $total_visitor = $visitors->count();
+                $current_date = now()->format('d F Y') ;
+            @endphp
             {{-- <div class="card bg-primary text-white mb-4">
                         <div class="card-body">Monthy Visitor </div>
                         <div class="card-footer d-flex align-items-center justify-content-between">
@@ -15,7 +19,7 @@
             <div class="card">
                 <div class="card-body bg-primary">
                   <div class="d-flex justify-content-between align-items-baseline">
-                    <h6 class="card-title mb-0 text-white">Monthly Visitor <span style="margin-left: 30px">{{ Carbon\Carbon::parse($monthVisitor->first()->updated_at)->format('d F Y') }}</span></h6>
+                    <h6 class="card-title mb-0 text-white">Monthly Visitor <span style="margin-left: 30px">{{ $current_date }}</span></h6>
                     
                   </div>
                   <div class="row">
@@ -43,7 +47,7 @@
                   </div>
                   <div class="row">
                     <div class="col-6 col-md-12 col-xl-5">
-                        <h3 class="m-2 text-white"> {{ number_format($visitors->count()) }}  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></h2>
+                        <h3 class="m-2 text-white"> {{ number_format($total_visitor) }}  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></h2>
                        
                     </div>
                   </div>
@@ -58,7 +62,7 @@
             <div class="card-body">
                 <h6 class="card-title">Monthly Visitor   ({{ now()->format('F') }})</h6>
                 <p class="card-description">Current Date <a href="#" target="_blank">
-                        {{ Carbon\Carbon::parse($monthVisitor->first()->updated_at)->format('d F Y') }}
+                        {{ $current_date }}
                     </a></p>
                 <div class="table-responsive">
                     <table id="dataTableExample" class="table">
@@ -92,7 +96,7 @@
     <div class="col-lg-6">
         <div class="card">
             <div class="card-body">
-                <h6 class="card-title">Total Visitor  ({{ number_format($visitors->count()) }})</h6>
+                <h6 class="card-title">Total Visitor  ({{ number_format($total_visitor) }})</h6>
                 {{-- <p class="card-description"> Current Date <a href="#" target="_blank">
                         {{ Carbon\Carbon::parse($visitors->first()->updated_at)->format('d F Y') }}
                     </a></p> --}}
